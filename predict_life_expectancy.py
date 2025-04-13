@@ -255,8 +255,8 @@ if np.isnan(test_predictions).any():
 test_predictions = np.round(test_predictions, 1)  # Round predictions to 1 decimal place
 # Create submission file with ID and predictions
 output = pd.DataFrame({'ID': test_df['ID'], 'TARGET_LifeExpectancy': test_predictions})
-output.to_csv('COSC2753_A1_Predictions_s3977877.csv', index=False)  # Save predictions
-print("\nPredictions saved to 'COSC2753_A1_Predictions_s3977877.csv'")
+output.to_csv('Predictions.csv', index=False)  # Save predictions
+print("\nPredictions saved to 'Predictions.csv'")
 
 # Plot validation predictions to visualize model performance
 y_val_pred = best_model.predict(X_val_scaled)  # Predict on validation set
