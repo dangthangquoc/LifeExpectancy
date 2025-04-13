@@ -66,3 +66,5 @@ To ensure the output is correct:
    - Random Forest (best model) should have MAE = 2.16, R² = 0.91, Accuracy = 83.86%.
 3. **Inspect the Scatter Plot**:
    - The plot should show predicted vs. actual life expectancy, with points clustering around the diagonal (y=x), indicating good prediction accuracy.
+  
+![Output](Screenshot%202025-04-13%20175200.png)
