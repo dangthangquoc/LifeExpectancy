@@ -68,3 +68,4 @@ To ensure the output is correct:
    - The plot should show predicted vs. actual life expectancy, with points clustering around the diagonal (y=x), indicating good prediction accuracy.
   
 ![Output](Screenshot%202025-04-13%20175200.png)
+![Output](Screenshot%202025-04-13%20180408.png)
