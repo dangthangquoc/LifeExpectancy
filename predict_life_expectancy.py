@@ -19,9 +19,9 @@ train_df = pd.read_csv('train.csv')  # Training data with features and target
 test_df = pd.read_csv('test.csv')  # Test data for predictions
 
 # Generate an interactive report to explore data interactions
-# profile = ProfileReport(train_df, title="My train report")  # Create a profiling report for train data
-# profile.to_file("train_report.html")  # Save the report as HTML
-# print("Interactive report generated: train_report.html")  # IMPORTANT: open the file in a browser
+profile = ProfileReport(train_df, title="My train report")  # Create a profiling report for train data
+profile.to_file("train_report.html")  # Save the report as HTML
+print("Interactive report generated: train_report.html")  # IMPORTANT: open the file in a browser
 
 # Identify unknown countries in test set (not present in train set)
 unknown_countries = set(test_df['Country']) - set(train_df['Country'])
