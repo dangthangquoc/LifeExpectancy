@@ -27,8 +27,8 @@ Before running the code, ensure you have the following:
 - `train.csv`: Training dataset.
 - `test.csv`: Test dataset.
 - `predict_life_expectancy.py`: Main script containing the full pipeline.
-- `COSC2753_A1_Predictions_s3977877.csv`: Output file with test set predictions (generated after running the script).
-- `README.md`: This file.
+- `Predictions.csv`: Output file with test set predictions (generated after running the script).
+- `readme.txt`: This file.
 
 ## Running the Code
 Follow these steps to run the code and generate predictions:
@@ -51,7 +51,7 @@ Follow these steps to run the code and generate predictions:
   - Preprocessing details (e.g., unknown countries, skewness, VIF, outliers ratio).
   - Model performance metrics (MAE, RMSE, R², Accuracy) for each model.
   - Feature importance from Random Forest.
-  - Confirmation of `predictions.csv` generation.
+  - Confirmation of `Predictions.csv` generation.
 - **Files Generated**:
   - `predictions.csv`: Contains 867 rows with columns `ID` (1–867) and `TARGET_LifeExpectancy`.
 - **Plots**:
@@ -59,7 +59,7 @@ Follow these steps to run the code and generate predictions:
 
 ## Verifying the Output
 To ensure the output is correct:
-1. **Check `COSC2753_A1_Predictions_s3977877.csv`**:
+1. **Check `Predictions.csv`**:
    - Expected format: Two columns (`ID`, `TARGET_LifeExpectancy`).
    - 867 rows, no NaN values.
 2. **Validate Metrics**:
